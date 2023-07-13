@@ -45,10 +45,8 @@ public class Pizza {
     }
     public void addTakeaway(){
         // your code goes here
-        if(isTakeAwayAdded == false){
             this.price += 20;
             isTakeAwayAdded = true;
-        }
     }
     public String getBill(){
         // your code goes here
