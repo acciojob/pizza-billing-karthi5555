@@ -8,7 +8,7 @@ public class Main {
     dp.addExtraToppings();
     dp.addExtraToppings();
     dp.addTakeaway();
-    System.out.println(dp.getBill());
+//    System.out.println(dp.getBill());
 
     Pizza p = new Pizza(false);
     p.addExtraToppings();
@@ -16,9 +16,7 @@ public class Main {
     p.addExtraCheese();
     p.addExtraToppings();
     p.addExtraCheese();
-    System.out.println(p.getBill());
-
-
+//    System.out.println(p.getBill());
 
   }
 }
