@@ -10,6 +10,7 @@ public class Pizza {
     private boolean isToppingsAddedOnce = false;
 
     private boolean isTakeAwayAdded = false;
+    private boolean isGetbillAsked = false;
 
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
@@ -72,6 +73,11 @@ public class Pizza {
 
         this.bill = this.bill + "Total Price: " + this.price;
 
-        return this.bill;
+        if(isGetbillAsked == false){
+            isGetbillAsked = true;
+            return this.bill;
+        }else {
+            return this.bill;
+        }
     }
 }
