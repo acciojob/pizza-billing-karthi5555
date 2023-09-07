@@ -15,8 +15,20 @@ public class Main {
 //    p.addTakeaway();
 //    p.addExtraCheese();
 //    p.addExtraToppings();
+
 //    p.addExtraCheese();
-////    System.out.println(p.getBill());
+////    System.out.println(p.getBill())
+
+
+    Pizza p = new Pizza(false);
+    p.addExtraCheese();
+    p.addExtraToppings();
+    p.addExtraCheese();
+    p.addExtraToppings();
+    p.addExtraToppings();
+    p.addTakeaway();
+    System.out.println(p.getBill());
+
 
   }
 }
